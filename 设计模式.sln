@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.装饰模式", "03.装�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.代理模式", "04.代理模式\04.代理模式.csproj", "{EEE0205C-A2D0-4A08-8A29-693EE0AEB382}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.工厂方法模式", "05.工厂方法模式\05.工厂方法模式.csproj", "{B335870D-03B7-4D29-B6D7-AB5979C86637}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.工厂方法模式", "05.工厂方法模式\05.工厂方法模式.csproj", "{B335870D-03B7-4D29-B6D7-AB5979C86637}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.原型模式", "06.原型模式\06.原型模式.csproj", "{F046F35F-B4E1-4DD2-AFFA-EB47571073B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.原型模式", "06.原型模式\06.原型模式.csproj", "{F046F35F-B4E1-4DD2-AFFA-EB47571073B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.模板方法模式", "07.模板方法模式\07.模板方法模式.csproj", "{ABF055F3-D28D-4C9C-990E-B9E8E96FDB4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{F046F35F-B4E1-4DD2-AFFA-EB47571073B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F046F35F-B4E1-4DD2-AFFA-EB47571073B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F046F35F-B4E1-4DD2-AFFA-EB47571073B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABF055F3-D28D-4C9C-990E-B9E8E96FDB4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABF055F3-D28D-4C9C-990E-B9E8E96FDB4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABF055F3-D28D-4C9C-990E-B9E8E96FDB4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABF055F3-D28D-4C9C-990E-B9E8E96FDB4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
