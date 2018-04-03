@@ -21,11 +21,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.外观模式", "08.外�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.建造者模式", "09.建造者模式\09.建造者模式.csproj", "{F312EB7B-2517-4A7C-A1E9-7D99765A3DCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.观察者模式", "10.观察者模式\10.观察者模式.csproj", "{E52F37CA-C059-4859-B77D-9CE93C4C9638}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.观察者模式", "10.观察者模式\10.观察者模式.csproj", "{E52F37CA-C059-4859-B77D-9CE93C4C9638}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.发布订阅模式", "11.发布订阅模式\11.发布订阅模式.csproj", "{F28D565C-1F5D-461B-9295-AAAC7CC0021E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11.发布订阅模式", "11.发布订阅模式\11.发布订阅模式.csproj", "{F28D565C-1F5D-461B-9295-AAAC7CC0021E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.抽象工厂模式", "12.抽象工厂模式\12.抽象工厂模式.csproj", "{F15CF2D7-6AE9-478D-B1C0-865888BD245D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12.抽象工厂模式", "12.抽象工厂模式\12.抽象工厂模式.csproj", "{F15CF2D7-6AE9-478D-B1C0-865888BD245D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.状态模式", "13.状态模式\13.状态模式.csproj", "{F000927A-8D9F-44C2-87E2-D5BB986494AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{F15CF2D7-6AE9-478D-B1C0-865888BD245D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F15CF2D7-6AE9-478D-B1C0-865888BD245D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F15CF2D7-6AE9-478D-B1C0-865888BD245D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F000927A-8D9F-44C2-87E2-D5BB986494AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F000927A-8D9F-44C2-87E2-D5BB986494AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F000927A-8D9F-44C2-87E2-D5BB986494AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F000927A-8D9F-44C2-87E2-D5BB986494AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
