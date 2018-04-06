@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13.状态模式", "13.状�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14.适配器模式", "14.适配器模式\14.适配器模式.csproj", "{098858D6-C9CE-412A-9461-FAA90AE9210F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.备忘录模式", "15.备忘录模式\15.备忘录模式.csproj", "{2A052FAF-C5E7-434F-AB98-BD2F3AE4A9B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15.备忘录模式", "15.备忘录模式\15.备忘录模式.csproj", "{2A052FAF-C5E7-434F-AB98-BD2F3AE4A9B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16.组合模式", "16.组合模式\16.组合模式.csproj", "{CF9AF0D7-9B3C-45C2-95E1-E442E33DDD3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{2A052FAF-C5E7-434F-AB98-BD2F3AE4A9B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A052FAF-C5E7-434F-AB98-BD2F3AE4A9B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A052FAF-C5E7-434F-AB98-BD2F3AE4A9B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF9AF0D7-9B3C-45C2-95E1-E442E33DDD3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF9AF0D7-9B3C-45C2-95E1-E442E33DDD3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF9AF0D7-9B3C-45C2-95E1-E442E33DDD3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF9AF0D7-9B3C-45C2-95E1-E442E33DDD3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
