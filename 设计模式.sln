@@ -35,13 +35,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15.备忘录模式", "15.�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16.组合模式", "16.组合模式\16.组合模式.csproj", "{CF9AF0D7-9B3C-45C2-95E1-E442E33DDD3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18.迭代器模式", "18.迭代器模式\18.迭代器模式.csproj", "{E02B31B9-649B-4EBD-ACE8-AF3998129632}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18.迭代器模式", "18.迭代器模式\18.迭代器模式.csproj", "{E02B31B9-649B-4EBD-ACE8-AF3998129632}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19.单例模式", "19.单例模式\19.单例模式.csproj", "{254508FC-4A82-4E00-9F04-7836C3FC0F37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19.单例模式", "19.单例模式\19.单例模式.csproj", "{254508FC-4A82-4E00-9F04-7836C3FC0F37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20.桥接模式", "20.桥接模式\20.桥接模式.csproj", "{65D30636-697E-455E-B26D-4285F076608C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20.桥接模式", "20.桥接模式\20.桥接模式.csproj", "{65D30636-697E-455E-B26D-4285F076608C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21.命令模式", "21.命令模式\21.命令模式.csproj", "{40AD80B2-9F08-466F-87C2-8805A95DF636}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21.命令模式", "21.命令模式\21.命令模式.csproj", "{40AD80B2-9F08-466F-87C2-8805A95DF636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22.职责链模式", "22.职责链模式\22.职责链模式.csproj", "{8E58568F-D700-41ED-97E1-E8B814AB1841}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{40AD80B2-9F08-466F-87C2-8805A95DF636}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40AD80B2-9F08-466F-87C2-8805A95DF636}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40AD80B2-9F08-466F-87C2-8805A95DF636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E58568F-D700-41ED-97E1-E8B814AB1841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E58568F-D700-41ED-97E1-E8B814AB1841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E58568F-D700-41ED-97E1-E8B814AB1841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E58568F-D700-41ED-97E1-E8B814AB1841}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
