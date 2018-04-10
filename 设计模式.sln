@@ -49,6 +49,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "23.中介者模式", "23.�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24.享元模式", "24.享元模式\24.享元模式.csproj", "{D6859EA2-7673-46E0-9220-435FB17E4FDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25.解释器模式", "25.解释器模式\25.解释器模式.csproj", "{8E4B3EED-DCF4-4FFC-9079-7A9035B6C2CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26.访问者模式", "26.访问者模式\26.访问者模式.csproj", "{4A561D0D-BAC7-40A0-9489-13E9763CD381}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +151,14 @@ Global
 		{D6859EA2-7673-46E0-9220-435FB17E4FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6859EA2-7673-46E0-9220-435FB17E4FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6859EA2-7673-46E0-9220-435FB17E4FDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E4B3EED-DCF4-4FFC-9079-7A9035B6C2CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E4B3EED-DCF4-4FFC-9079-7A9035B6C2CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E4B3EED-DCF4-4FFC-9079-7A9035B6C2CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E4B3EED-DCF4-4FFC-9079-7A9035B6C2CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A561D0D-BAC7-40A0-9489-13E9763CD381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A561D0D-BAC7-40A0-9489-13E9763CD381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A561D0D-BAC7-40A0-9489-13E9763CD381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A561D0D-BAC7-40A0-9489-13E9763CD381}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
