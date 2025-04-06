@@ -1,3 +1,4 @@
+English | [简体中文](README.md)
 # Design Patterns Project
 
 ## Project Overview
