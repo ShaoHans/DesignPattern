@@ -1,3 +1,5 @@
+[English](README_EN.md) | 简体中文
+
 # 设计模式项目
 
 ## 项目简介
