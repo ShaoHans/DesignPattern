@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _23.中介者模式
+﻿namespace _23.中介者模式
 {
     /// <summary>
     /// 同事抽象类

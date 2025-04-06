@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace _06.原型模式
 {
@@ -10,7 +8,7 @@ namespace _06.原型模式
 
         public int Year { get; protected set; }
 
-        public void SetWorkExperience(string company,int year)
+        public void SetWorkExperience(string company, int year)
         {
             Company = company;
             Year = year;

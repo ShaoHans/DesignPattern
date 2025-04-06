@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _22.职责链模式.Cor
+﻿namespace _22.职责链模式.Cor
 {
     public interface IFilter
     {

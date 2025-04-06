@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace _02.策略模式.Sort
 {
@@ -13,7 +12,7 @@ namespace _02.策略模式.Sort
                 return;
             }
 
-            if(comparer == null)
+            if (comparer == null)
             {
                 throw new ArgumentNullException(nameof(comparer), "comparer can not be null!");
             }
@@ -21,7 +20,7 @@ namespace _02.策略模式.Sort
             for (int i = 0; i < arr.Length; i++)
             {
                 int minPos = i;
-                for (int j = i+1; j < arr.Length; j++)
+                for (int j = i + 1; j < arr.Length; j++)
                 {
                     minPos = comparer.Compare(arr[j], arr[minPos]) < 0 ? j : minPos;
                 }

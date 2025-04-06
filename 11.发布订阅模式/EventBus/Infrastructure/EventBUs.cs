@@ -3,7 +3,6 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using System.Text;
 
 namespace _11.发布订阅模式.EventBus.Infrastructure
 {
@@ -28,13 +27,13 @@ namespace _11.发布订阅模式.EventBus.Infrastructure
             foreach (var handlerType in assembly.GetTypes().Where(t => typeof(IEventHandler).IsAssignableFrom(t)))
             {
                 Type handlerInterface = handlerType.GetInterface("IEventHandler`1");
-                if(handlerInterface == null)
+                if (handlerInterface == null)
                 {
                     continue;
                 }
 
                 Type eventDataType = handlerInterface.GetGenericArguments()[0];
-                if(_eventAndHandlerMappings.ContainsKey(eventDataType))
+                if (_eventAndHandlerMappings.ContainsKey(eventDataType))
                 {
                     List<Type> handlerTypes = _eventAndHandlerMappings[eventDataType];
                     handlerTypes.Add(handlerType);

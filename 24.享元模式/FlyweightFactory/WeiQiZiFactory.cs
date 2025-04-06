@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace _24.享元模式
 {
@@ -22,7 +20,7 @@ namespace _24.享元模式
 
         public WeiQiZi CreateWeiQiZi(int type)
         {
-            if(_weiQiZiDict.ContainsKey(type))
+            if (_weiQiZiDict.ContainsKey(type))
             {
                 return _weiQiZiDict[type];
             }

@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _07.模板方法模式
+﻿namespace _07.模板方法模式
 {
-    public class StudentBTest: TestPaper
+    public class StudentBTest : TestPaper
     {
         public override string Answer1()
         {

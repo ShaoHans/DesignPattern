@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace _16.组合模式
 {
@@ -8,7 +7,7 @@ namespace _16.组合模式
     {
         private List<Company> _children = new List<Company>();
 
-        public ConcreteCompany(string name):base(name)
+        public ConcreteCompany(string name) : base(name)
         {
 
         }

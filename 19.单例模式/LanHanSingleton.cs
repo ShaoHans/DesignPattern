@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _19.单例模式
+﻿namespace _19.单例模式
 {
     /// <summary>
     /// 懒汉式单例类
@@ -19,11 +15,11 @@ namespace _19.单例模式
 
         public static LanHanSingleton GetInstance()
         {
-            if(singleton == null)
+            if (singleton == null)
             {
-                lock(sync)
+                lock (sync)
                 {
-                    if(singleton == null)
+                    if (singleton == null)
                     {
                         singleton = new LanHanSingleton();
                     }

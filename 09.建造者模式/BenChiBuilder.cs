@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _09.建造者模式
+﻿namespace _09.建造者模式
 {
-    public class BenChiBuilder: CarBuilder
+    public class BenChiBuilder : CarBuilder
     {
         Car car;
         public BenChiBuilder()

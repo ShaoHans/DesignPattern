@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _03.装饰模式
+﻿namespace _03.装饰模式
 {
-    public abstract class Decorator: Coffee
+    public abstract class Decorator : Coffee
     {
         private Coffee _coffee;
 

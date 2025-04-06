@@ -15,7 +15,7 @@ namespace _18.迭代器模式
 
             Iterator iterator = list.GetIterator();
 
-            while(!iterator.IsDone())
+            while (!iterator.IsDone())
             {
                 Console.WriteLine(iterator.Current());
                 iterator.Next();

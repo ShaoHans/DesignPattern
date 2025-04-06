@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _16.组合模式
+﻿namespace _16.组合模式
 {
     public abstract class Company
     {

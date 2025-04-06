@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _11.发布订阅模式.EventBus
+﻿namespace _11.发布订阅模式.EventBus
 {
     /// <summary>
     /// 鱼的品类枚举

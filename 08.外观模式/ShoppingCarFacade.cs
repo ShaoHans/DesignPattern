@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _08.外观模式
+﻿namespace _08.外观模式
 {
     public class ShoppingCarFacade
     {

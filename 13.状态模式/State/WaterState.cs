@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _13.状态模式
+﻿namespace _13.状态模式
 {
     public abstract class WaterState
     {

@@ -1,4 +1,5 @@
 ﻿using _22.职责链模式.Cor;
+
 using System;
 
 namespace _22.职责链模式

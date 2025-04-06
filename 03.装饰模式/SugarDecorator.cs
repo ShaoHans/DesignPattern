@@ -1,12 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace _03.装饰模式
 {
-    public class SugarDecorator: Decorator
+    public class SugarDecorator : Decorator
     {
-        public SugarDecorator(Coffee coffee):base(coffee)
+        public SugarDecorator(Coffee coffee) : base(coffee)
         {
 
         }

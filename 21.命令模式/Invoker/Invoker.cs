@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _21.命令模式
+﻿namespace _21.命令模式
 {
     /// <summary>
     /// 命令传送者

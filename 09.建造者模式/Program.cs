@@ -6,7 +6,7 @@ namespace _09.建造者模式
     {
         static void Main(string[] args)
         {
-            
+
             Console.WriteLine("开始生产宝马车...");
             BaoMaBuilder baoMaBuilder = new BaoMaBuilder();
             Director director = new Director(baoMaBuilder);

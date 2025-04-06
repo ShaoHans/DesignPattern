@@ -1,12 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace _05.工厂方法模式
 {
-    public class IPhone: Mobile
+    public class IPhone : Mobile
     {
-        public IPhone() 
+        public IPhone()
         {
             Brand = "苹果";
         }

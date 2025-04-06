@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _02.策略模式
+﻿namespace _02.策略模式
 {
     /// <summary>
     /// 交通线路策略

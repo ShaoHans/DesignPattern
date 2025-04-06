@@ -1,15 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace _04.代理模式
 {
-    public class Proxy: Subject
+    public class Proxy : Subject
     {
         private RealSubject _subject;
         public Proxy()
         {
-            if(_subject ==null)
+            if (_subject == null)
             {
                 _subject = new RealSubject();
             }

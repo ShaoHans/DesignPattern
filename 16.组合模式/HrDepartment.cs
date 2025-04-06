@@ -1,12 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace _16.组合模式
 {
     public class HrDepartment : Company
     {
-        public HrDepartment(string name):base(name)
+        public HrDepartment(string name) : base(name)
         {
 
         }

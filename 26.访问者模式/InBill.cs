@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _26.访问者模式
+﻿namespace _26.访问者模式
 {
     /// <summary>
     /// 收入账单

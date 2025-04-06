@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace _04.代理模式
 {
-    public class RealSubject: Subject
+    public class RealSubject : Subject
     {
         public override void DoSomething()
         {

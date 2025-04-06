@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace _02.策略模式
 {
-    public class RouteStrategyTwo: TrafficRouteStrategy
+    public class RouteStrategyTwo : TrafficRouteStrategy
     {
         public override void ShowRoute()
         {

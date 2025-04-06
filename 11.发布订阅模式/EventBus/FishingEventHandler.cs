@@ -1,7 +1,6 @@
 ﻿using _11.发布订阅模式.EventBus.Infrastructure;
+
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace _11.发布订阅模式.EventBus
 {

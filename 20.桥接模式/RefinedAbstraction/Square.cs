@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _20.桥接模式
+﻿namespace _20.桥接模式
 {
     public class Square : MyShape
     {

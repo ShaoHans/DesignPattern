@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _23.中介者模式
+﻿namespace _23.中介者模式
 {
     public class MainBoardMediator : Mediator
     {
@@ -14,7 +10,7 @@ namespace _23.中介者模式
 
         public override void Change(Colleague colleague)
         {
-            if(colleague is HardDiskColleague)
+            if (colleague is HardDiskColleague)
             {
                 PlayMovie();
             }
