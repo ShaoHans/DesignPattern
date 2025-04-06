@@ -1,10 +1,9 @@
-﻿namespace _02.策略模式
+﻿namespace _02.策略模式;
+
+/// <summary>
+/// 交通线路策略
+/// </summary>
+public abstract class TrafficRouteStrategy
 {
-    /// <summary>
-    /// 交通线路策略
-    /// </summary>
-    public abstract class TrafficRouteStrategy
-    {
-        public abstract void ShowRoute();
-    }
+    public abstract void ShowRoute();
 }
